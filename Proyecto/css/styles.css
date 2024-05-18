@@ -110,6 +110,27 @@ ul li::before {
     border-radius: 50%;
     cursor: pointer;
   }
+
+.btnn {
+    width: auto;
+    height: 25px;
+    background: white;
+    text-align: center;
+    background-color: #3b4a6a;
+    font-size: 18px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #929191; 
+    display: block; 
+    margin: 0 auto; 
+    border: none;
+  }
+
+.btnn:hover{
+    background-color: #1f53c5;
+}  
+
 .buscar:hover input {
     width: 120px;
 }  
